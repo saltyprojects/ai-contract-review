@@ -3,177 +3,237 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Self-Hosted Legal Templates - Open Source AI Contracts</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>OpenAlt - Open Source Alternatives to Big Tech</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+    }
+    .hero {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 56px;
+      margin-bottom: 20px;
+      font-weight: 800;
+    }
+    .hero .subtitle {
+      font-size: 24px;
+      margin-bottom: 15px;
+      opacity: 0.95;
+    }
+    .hero .tagline {
+      font-size: 18px;
+      opacity: 0.85;
+    }
+    .news-banner {
+      background: #fef3c7;
+      border-left: 4px solid #f59e0b;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 900px;
+      border-radius: 8px;
+    }
+    .news-banner strong {
+      color: #92400e;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+    h2 {
+      font-size: 42px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .alt-grid {
+      display: grid;
+      gap: 24px;
+      margin: 40px 0;
+    }
+    .alt-card {
+      background: white;
+      border: 2px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 30px;
+      transition: all 0.2s;
+    }
+    .alt-card:hover {
+      border-color: #667eea;
+      box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+    }
+    .alt-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .instead-of {
+      font-size: 14px;
+      color: #dc2626;
+      font-weight: 600;
+      text-decoration: line-through;
+    }
+    .use-this {
+      font-size: 24px;
+      font-weight: 700;
+      color: #10b981;
+    }
+    .badge {
+      padding: 6px 12px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+      background: #d1fae5;
+      color: #065f46;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin: 40px 0;
+    }
+    .feature {
+      text-align: center;
+      padding: 30px;
+    }
+    .feature h3 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .feature p {
+      color: #6b7280;
+    }
+    .cta {
+      background: #667eea;
+      color: white;
+      padding: 16px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-block;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="container">
-        <div class="logo">AI Contract Review</div>
-        <a href="#contact" class="cta-button">Get Started</a>
-      </div>
-    </nav>
-  </header>
+  <div class="hero">
+    <h1>🌊 OpenAlt</h1>
+    <p class="subtitle">Open Source Alternatives to Big Tech</p>
+    <p class="tagline">Don't rent the cloud. Don't trust Big Tech. Own your stack.</p>
+  </div>
 
-  <section class="hero">
-    <div class="container">
-      <h1>Self-Hosted Legal Templates for <span class="highlight">AI Products</span></h1>
-      <p class="subtitle">Open source contract templates you control. Run on YOUR infrastructure. No vendor lock-in.</p>
-      <a href="#contact" class="cta-button large">Download Free</a>
-    </div>
-  </section>
+  <div class="news-banner">
+    <strong>📰 Breaking:</strong> European Commission ditching Microsoft Teams for Matrix (open source). The exodus has begun.
+  </div>
 
-  <section class="problem">
-    <div class="container">
-      <h2>Why Self-Host Your Legal Templates?</h2>
-      <div class="problem-grid">
-        <div class="problem-card">
-          <div class="icon">🔒</div>
-          <h3>Privacy</h3>
-          <p>Your legal docs never leave your infrastructure</p>
-        </div>
-        <div class="problem-card">
-          <div class="icon">💻</div>
-          <h3>No Vendor Lock-in</h3>
-          <p>Own the code, run it anywhere, modify as needed</p>
-        </div>
-        <div class="problem-card">
-          <div class="icon">🆓</div>
-          <h3>Open Source</h3>
-          <p>Free to use, audit, and contribute</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="solution">
-    <div class="container">
-      <h2>Deploy in Minutes</h2>
-      <p class="section-intro">Docker container + open source templates. Run anywhere.</p>
-      
-      <div class="features">
-        <div class="feature">
-          <h3>🐳 One Command Deploy</h3>
-          <p><code>docker run -p 3000:3000 legal-templates</code></p>
-        </div>
-        <div class="feature">
-          <h3>📝 Pre-Built Templates</h3>
-          <p>MSAs, DPAs, SLAs, AI usage rights - all ready to customize</p>
-        </div>
-        <div class="feature">
-          <h3>🔓 Fully Open Source</h3>
-          <p>MIT License. Fork it, modify it, contribute back.</p>
-        </div>
-        <div class="feature">
-          <h3>🛠️ Self-Hosted Control</h3>
-          <p>Your infrastructure, your rules, your data.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="templates">
-    <div class="container">
-      <h2>What's Included</h2>
-      <div class="template-list">
-        <div class="template-item">
-          <div class="template-header">
-            <h3>Master Services Agreement</h3>
-            <span class="badge">Core</span>
+  <div class="container">
+    <h2>Popular Alternatives</h2>
+    
+    <div class="alt-grid">
+      <div class="alt-card">
+        <div class="alt-header">
+          <div>
+            <div class="instead-of">Instead of: Microsoft Teams / Slack</div>
+            <div class="use-this">Matrix + Element</div>
           </div>
-          <p>Foundation contract covering AI service delivery, warranties, and limitations</p>
+          <span class="badge">✓ EU Approved</span>
         </div>
-        <div class="template-item">
-          <div class="template-header">
-            <h3>Data Processing Addendum</h3>
-            <span class="badge">Core</span>
+        <p>Decentralized, encrypted messaging. Self-host or use hosted. European Commission just switched to this.</p>
+        <p style="margin-top:15px;"><strong>Cost savings:</strong> $0 vs $12.50/user/mo (Slack) = $150/mo for 10 users</p>
+      </div>
+
+      <div class="alt-card">
+        <div class="alt-header">
+          <div>
+            <div class="instead-of">Instead of: Google Drive / Dropbox</div>
+            <div class="use-this">Nextcloud</div>
           </div>
-          <p>GDPR-compliant data handling for AI training and inference</p>
+          <span class="badge">✓ Self-Hosted</span>
         </div>
-        <div class="template-item">
-          <div class="template-header">
-            <h3>AI Model Usage Rights</h3>
-            <span class="badge">Specialized</span>
+        <p>Full office suite, file sync, calendar, contacts. Host it yourself, keep your data.</p>
+        <p style="margin-top:15px;"><strong>Cost savings:</strong> $0 vs $12/user/mo (Google Workspace) = $144/mo for 10 users</p>
+      </div>
+
+      <div class="alt-card">
+        <div class="alt-header">
+          <div>
+            <div class="instead-of">Instead of: Mailchimp</div>
+            <div class="use-this">Listmonk</div>
           </div>
-          <p>Clear terms for model access, fine-tuning, and output ownership</p>
+          <span class="badge">✓ Open Source</span>
         </div>
-        <div class="template-item">
-          <div class="template-header">
-            <h3>Enterprise SLA</h3>
-            <span class="badge">Add-on</span>
+        <p>Self-hosted newsletter and mailing list manager. No per-subscriber pricing games.</p>
+        <p style="margin-top:15px;"><strong>Cost savings:</strong> $0 vs $350/mo (10k subscribers) = $4,200/year</p>
+      </div>
+
+      <div class="alt-card">
+        <div class="alt-header">
+          <div>
+            <div class="instead-of">Instead of: GitHub (Microsoft)</div>
+            <div class="use-this">Gitea / GitLab</div>
           </div>
-          <p>Uptime guarantees, support tiers, and performance metrics for AI services</p>
+          <span class="badge">✓ Own Your Code</span>
         </div>
+        <p>Git hosting, CI/CD, issue tracking. Self-host or use community instances.</p>
+        <p style="margin-top:15px;"><strong>Cost savings:</strong> $0 vs $21/user/mo (GitHub Teams) = $252/mo for 10 users</p>
+      </div>
+
+      <div class="alt-card">
+        <div class="alt-header">
+          <div>
+            <div class="instead-of">Instead of: Zoom</div>
+            <div class="use-this">Jitsi Meet</div>
+          </div>
+          <span class="badge">✓ No Account Required</span>
+        </div>
+        <p>Encrypted video conferencing. Host yourself or use free public instances.</p>
+        <p style="margin-top:15px;"><strong>Cost savings:</strong> $0 vs $150/mo (Zoom Pro for 10) = $1,800/year</p>
+      </div>
+
+      <div class="alt-card">
+        <div class="alt-header">
+          <div>
+            <div class="instead-of">Instead of: Monday.com / Asana</div>
+            <div class="use-this">Plane / Taiga</div>
+          </div>
+          <span class="badge">✓ Self-Hosted</span>
+        </div>
+        <p>Project management, issue tracking, agile boards. Own your project data.</p>
+        <p style="margin-top:15px;"><strong>Cost savings:</strong> $0 vs $120/mo (Monday.com for 10) = $1,440/year</p>
       </div>
     </div>
-  </section>
 
-  <section class="pricing">
-    <div class="container">
-      <h2>100% Free & Open Source</h2>
-      <div class="pricing-grid">
-        <div class="pricing-card featured">
-          <h3>Community Edition</h3>
-          <div class="price">$0</div>
-          <p class="price-detail">forever</p>
-          <ul>
-            <li>✓ All contract templates</li>
-            <li>✓ Docker deployment</li>
-            <li>✓ MIT License</li>
-            <li>✓ Community support (GitHub)</li>
-            <li>✓ Fork, modify, distribute freely</li>
-          </ul>
-          <a href="https://github.com/saltyprojects/ai-contract-review" class="cta-button">View on GitHub</a>
-        </div>
-        <div class="pricing-card">
-          <h3>Pro Support</h3>
-          <div class="price">$499<span>/mo</span></div>
-          <p class="price-detail">optional</p>
-          <ul>
-            <li>✓ Priority bug fixes</li>
-            <li>✓ Custom template development</li>
-            <li>✓ Deployment assistance</li>
-            <li>✓ Legal clause consultation</li>
-            <li>✓ Direct Slack/email support</li>
-          </ul>
-          <a href="#contact" class="cta-button">Contact Sales</a>
-        </div>
+    <h2 style="margin-top:80px;">Why Switch?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>💰</h3>
+        <p><strong>Save $10k-50k/year</strong><br>No per-user pricing, no annual increases</p>
+      </div>
+      <div class="feature">
+        <h3>🔒</h3>
+        <p><strong>Own Your Data</strong><br>No surveillance, no ToS changes, no lock-in</p>
+      </div>
+      <div class="feature">
+        <h3>🌍</h3>
+        <p><strong>EU-Compliant</strong><br>GDPR-friendly, data residency control</p>
       </div>
     </div>
-  </section>
 
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>Get Early Access</h2>
-      <p class="section-intro">We're onboarding our first customers. Join the waitlist.</p>
-      
-      <form id="contactForm">
-        <div class="form-group">
-          <input type="text" id="name" placeholder="Your Name" required>
-        </div>
-        <div class="form-group">
-          <input type="email" id="email" placeholder="Work Email" required>
-        </div>
-        <div class="form-group">
-          <input type="text" id="company" placeholder="Company Name" required>
-        </div>
-        <div class="form-group">
-          <textarea id="message" placeholder="Tell us about your contract needs (optional)" rows="4"></textarea>
-        </div>
-        <button type="submit" class="cta-button large">Request Access</button>
-      </form>
-      <div id="formMessage" class="form-message"></div>
+    <div style="text-align:center; margin-top:60px;">
+      <a href="https://github.com/saltyprojects/ai-contract-review" class="cta">View Full Directory on GitHub</a>
+      <p style="margin-top:20px;color:#6b7280;">150+ open source alternatives to Big Tech products</p>
     </div>
-  </section>
+  </div>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2026 AI Contract Review. Built by <a href="https://sevenolives.com" target="_blank">SevenOlives</a></p>
-      <p class="disclaimer">This service provides legal templates and guidance. Not a substitute for legal advice. Consult a lawyer for your specific needs.</p>
-    </div>
+  <footer style="background:#1f2937;color:white;padding:40px 20px;text-align:center;margin-top:80px;">
+    <p>&copy; 2026 OpenAlt. Community-maintained directory.</p>
+    <p style="margin-top:10px;opacity:0.8;font-size:14px;">Built with 🧂 by the open source community</p>
   </footer>
-
-  <script src="app.js"></script>
 </body>
 </html>

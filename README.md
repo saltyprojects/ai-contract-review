@@ -1,43 +1,38 @@
-# AI Contract Review
+# OpenAlt - Open Source Alternatives to Big Tech
 
-**Close Enterprise AI Deals 3 Weeks Faster**
+**Don't rent the cloud. Don't trust Big Tech. Own your stack.**
 
-Pre-reviewed legal contract templates specifically designed for AI products. Save $5K-$20K per enterprise deal and eliminate 2-4 week delays in legal review.
+## Breaking News
 
-## The Problem
+The European Commission just ditched Microsoft Teams for Matrix (open source). The exodus from Big Tech has begun.
 
-Every enterprise AI deal requires custom legal review:
-- **2-4 weeks** of delay for each deal
-- **$5K-$20K** in legal fees for repetitive contract work
-- Same issues repeat: privacy, liability, data handling, model usage rights
+## What This Is
 
-## The Solution
+A curated directory of open source alternatives to expensive SaaS products:
 
-Pre-reviewed contract templates built specifically for AI products:
-- ✅ AI-specific clauses (model usage, training data, output ownership)
-- ✅ Enterprise-ready (privacy, compliance, SLAs)
-- ✅ Lawyer-reviewed and regularly updated
-- ✅ Ready to customize for your product
+- 💰 Save $10k-50k/year on software costs
+- 🔒 Own your data, no vendor lock-in
+- 🌍 EU-compliant, GDPR-friendly
 
-## What's Included
+## Featured Alternatives
 
-- **Master Services Agreement** - Foundation contract for AI service delivery
-- **Data Processing Addendum** - GDPR-compliant data handling
-- **AI Model Usage Rights** - Clear terms for model access and outputs
-- **Enterprise SLA** - Uptime guarantees and support tiers
+| Instead of... | Use This | Savings/Year |
+|--------------|----------|--------------|
+| Microsoft Teams / Slack | Matrix + Element | $1,800+ |
+| Google Drive | Nextcloud | $1,728+ |
+| Mailchimp | Listmonk | $4,200+ |
+| GitHub Teams | Gitea / GitLab | $3,024+ |
+| Zoom | Jitsi Meet | $1,800+ |
+| Monday.com | Plane / Taiga | $1,440+ |
 
-## Pricing
+## Why Now?
 
-- **Per Contract**: $799 one-time (custom review, 48h turnaround)
-- **Subscription**: $299/month (all templates + 3 reviews/month)
+- EU Commission officially moving to open source (Matrix)
+- Self-hosting movement at all-time high
+- SaaS pricing increasing 20-40% annually
+- Data privacy regulations tightening
 
-## Tech Stack
-
-- Node.js + Express
-- Vanilla HTML/CSS/JS (no framework bloat)
-- Deployable to Railway, Vercel, or any Node.js host
-
-## Running Locally
+## Quick Start
 
 ```bash
 npm install
@@ -45,21 +40,14 @@ npm start
 # Open http://localhost:3000
 ```
 
-## Deployment
+## Contributing
 
-### Railway
-```bash
-railway login
-railway up
-```
+Know a great open source alternative? Submit a PR!
 
-### Environment Variables
-- `PORT` - Server port (default: 3000)
+## License
 
-## Legal Disclaimer
-
-This service provides legal templates and guidance. Not a substitute for legal advice from a licensed attorney. Always consult a lawyer for your specific needs.
+MIT
 
 ---
 
-Built by [SevenOlives](https://sevenolives.com) 🧂
+Built by the community 🧂
